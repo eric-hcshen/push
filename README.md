@@ -21,7 +21,9 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Install Github deployment
 
+Run `sudo npm i -g angular-cli-ghpages` to install github deployment tool in global
 ## Deploy to Github Pages
 
 Run `ng deploy:gh` to execute product build and deploy to github page (https://eric-hshenb/github.io/push).
