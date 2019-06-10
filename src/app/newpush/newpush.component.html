@@ -1,0 +1,17 @@
+<form [formGroup]="form" action="">
+  <div class="form-group">
+    <label for="">Name</label>
+    <input type="text" class="form-control" formControlName="name" name="" id="" aria-describedby="helpId" placeholder="">
+    <small id="helpId" class="form-text text-muted">Help text</small>
+  </div>
+  <div class="form-group">
+    <label for="">Msg</label>
+    <input type="text" class="form-control" formControlName="msg" name="" id="" aria-describedby="helpId" placeholder="">
+    <small id="helpId" class="form-text text-muted">Help text</small>
+  </div>
+  <button type="button" class="btn btn-primary" (click)="onPush()">Push</button>
+  <div class="form-group">
+    <label for="">Text</label>
+    <textarea class="form-control" name="" id="" rows="3" formControlName="text"></textarea>
+  </div>
+</form>
