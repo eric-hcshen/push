@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy:ng": "ng build --prod --base-href='https://eric-hcshen/github.io/push.io/' && sudo ngh"
+    "deploy:gh": "ng build --prod --base-href='https://eric-hcshen/github.io/push.io/' && sudo ngh"
   },
   "private": true,
   "dependencies": {
